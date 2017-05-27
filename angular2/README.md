@@ -8,10 +8,10 @@ A complete structure for angular 2
 
 ```bash
 # clone our repo
-$ git clone https://github.com/preboot/angular-webpack.git my-app
+$ git clone https://github.com/jcyovera/UIFromScratch 
 
 # change directory to your app
-$ cd my-app
+$ cd angular2
 
 # install the dependencies with npm
 $ npm install
