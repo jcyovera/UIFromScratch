@@ -11,6 +11,9 @@ import { routing } from './app.routing';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
+//New components
+import { BooksComponent } from './books/books.component';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -21,7 +24,8 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    BooksComponent
   ],
   providers: [
     ApiService
